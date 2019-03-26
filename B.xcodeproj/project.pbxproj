@@ -15,8 +15,8 @@
 		CD37AA812248A5FD0011574A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA802248A5FD0011574A /* main.m */; };
 		CD37AA8B2248A5FD0011574A /* BTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA8A2248A5FD0011574A /* BTests.m */; };
 		CD37AA962248A5FD0011574A /* BUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AA952248A5FD0011574A /* BUITests.m */; };
-		CD37AAE72248BD4F0011574A /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AAE62248BD4F0011574A /* Target_B.m */; };
 		CD37AAEA2248BDA10011574A /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AAE82248BDA10011574A /* BViewController.m */; };
+		CD37AAFC2249D3CB0011574A /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37AAFB2249D3CB0011574A /* Target_B.m */; };
 		FDA2ED594642CB8403479E7A /* Pods_B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EC66B789DCEE1E978C7510 /* Pods_B.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,10 +57,10 @@
 		CD37AA912248A5FD0011574A /* BUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD37AA952248A5FD0011574A /* BUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUITests.m; sourceTree = "<group>"; };
 		CD37AA972248A5FD0011574A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD37AAE52248BD4F0011574A /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
-		CD37AAE62248BD4F0011574A /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
 		CD37AAE82248BDA10011574A /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BViewController.m; path = B/BViewController.m; sourceTree = "<group>"; };
 		CD37AAE92248BDA10011574A /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BViewController.h; path = B/BViewController.h; sourceTree = "<group>"; };
+		CD37AAFA2249D3CB0011574A /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_B.h; path = B/Target_B.h; sourceTree = "<group>"; };
+		CD37AAFB2249D3CB0011574A /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_B.m; path = B/Target_B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				0BA7FE33110B822C543A8AFB /* Pods-B.debug.xcconfig */,
 				2A8B10DF768F688E66568DE9 /* Pods-B.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,6 +131,8 @@
 		CD37AA702248A5FC0011574A /* B */ = {
 			isa = PBXGroup;
 			children = (
+				CD37AAFA2249D3CB0011574A /* Target_B.h */,
+				CD37AAFB2249D3CB0011574A /* Target_B.m */,
 				CD37AAE92248BDA10011574A /* BViewController.h */,
 				CD37AAE82248BDA10011574A /* BViewController.m */,
 				CD37AA712248A5FC0011574A /* AppDelegate.h */,
@@ -143,8 +144,6 @@
 				CD37AA7C2248A5FD0011574A /* LaunchScreen.storyboard */,
 				CD37AA7F2248A5FD0011574A /* Info.plist */,
 				CD37AA802248A5FD0011574A /* main.m */,
-				CD37AAE52248BD4F0011574A /* Target_B.h */,
-				CD37AAE62248BD4F0011574A /* Target_B.m */,
 			);
 			path = B;
 			sourceTree = "<group>";
@@ -347,8 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD37AA762248A5FC0011574A /* ViewController.m in Sources */,
-				CD37AAE72248BD4F0011574A /* Target_B.m in Sources */,
 				CD37AA812248A5FD0011574A /* main.m in Sources */,
+				CD37AAFC2249D3CB0011574A /* Target_B.m in Sources */,
 				CD37AAEA2248BDA10011574A /* BViewController.m in Sources */,
 				CD37AA732248A5FC0011574A /* AppDelegate.m in Sources */,
 			);
